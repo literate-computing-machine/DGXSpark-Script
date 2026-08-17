@@ -1,0 +1,11 @@
+Step.1
+sudo ./start_Ray_head_node.sh
+tail -f vllm_head_****.log
+Go to Node(203.64.95.113) connect Ray
+
+Step.2
+sudo ./start_vllm_service.sh
+tail -f vllm_server.log
+sudo docker ps
+sudo docker exec -it 2c2ac01f2f08 /bin/bash
+tail -f vllm_server.log

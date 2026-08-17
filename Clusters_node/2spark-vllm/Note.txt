@@ -1,0 +1,2 @@
+start command:
+sudo ./start_Ray_worker_node.sh 192.168.200.12
